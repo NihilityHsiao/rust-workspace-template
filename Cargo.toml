@@ -1,0 +1,8 @@
+[workspace]
+resolver = "2"    # 使用2021版的新解析器
+members = ["abc"]
+
+[workspace.dependencies]
+thiserror = "2.0.9"
+anyhow = "1.0.95"
+rtest = "0.2.2"
